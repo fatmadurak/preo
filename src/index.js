@@ -8,7 +8,7 @@ export const ExampleComponent = ({ text }) => {
 
 export const Button=(props)=>{
 
-return(<button onClick={props.onClick}>{props.text}</button>)
+return(<button {...props}>{props.text}</button>)
 
 
 }
